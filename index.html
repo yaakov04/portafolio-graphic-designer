@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/471047becf.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <header>
+        <div class="hero">
+            <div class="contenedor contenedor--flex-center">
+                <div class="contacto">
+                    <a class="contacto__enlace" href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a class="contacto__enlace" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="contacto__enlace" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="contacto__enlace" href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+
+                <div class="hero__perfil-img"><img src="img/vietnam-4502923_1920.jpg" alt="Imagen de perfil"></div>
+
+                <h1 class="hero__encabezado">Susan Haack</h1>
+                <p class="hero__keywords">Artist, Graphic Designer, Writer and Blogger</p>
+
+                <button id="btn_mode" class="btn-mode">
+                    <span>Dark Mode</span>
+                    <span>Pink Mode</span>
+                </button>
+                <nav class="main-nav">
+                    <a data-action="mostrar_ocultar" data-seccion="perfil" class="main-nav__enlace " href="#perfil">Perfil</a>
+                    <a data-action="mostrar_ocultar" data-seccion="portafolio" class="main-nav__enlace main-nav__enlace--active" href="#portafolio">Portafolio</a>
+                    <a data-action="mostrar_ocultar" data-seccion="cv" class="main-nav__enlace" href="#cv">CV</a>
+                </nav>
+
+            </div>
+
+        </div>
+
+    </header>
+    <main class="contenedor">
+        <section id="perfil" class="perfil">
+            <h2>Sobre mi</h2>
+            <div class="card">
+                <p class="card__txt card__txt--center">Aenean non leo vel tellus viverra cursus ac et mi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In bibendum erat eget arcu accumsan dictum. Phasellus rhoncus eros eget gravida venenatis. Aliquam
+                    placerat bibendum sem, et gravida massa finibus ac. Aenean eget augue aliquam, euismod lectus sed, ullamcorper lacus. Vivamus sed augue non ligula volutpat sollicitudin in sit amet tellus. Aenean ullamcorper libero a quam ornare, eu
+                    fermentum leo vulputate. Suspendisse id nibh malesuada ex tempor porttitor vitae sit amet risus.</p>
+            </div>
+
+        </section>
+        <section id="portafolio" class="portafolio show">
+            <h2>Galeria</h2>
+            <nav class="nav-gallery card" id="categorias">
+                <a class="nav-gallery__enlace nav-gallery__enlace--active nav-gallery__enlace--w100" href="#">Todos</a>
+                <a class="nav-gallery__enlace" href="#">Acuarelas</a>
+                <a class="nav-gallery__enlace" href="#">Fotografía</a>
+                <a class="nav-gallery__enlace" href="#">Digital</a>
+            </nav>
+            <div class="grid galeria">
+                <div class="item" data-categoria="digital">
+                    <div class="item-content">
+                        <a href="img/digital-birds-2037459_1920.png" data-lightbox="galeria"><img src="img/digital-birds-2037459_1920.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="item" data-categoria="fotografía">
+                    <div class="item-content">
+                        <a href="img/foto-couple-443600_1280.jpg" data-lightbox="galeria"><img src="img/foto-couple-443600_1280.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="item" data-categoria="acuarelas">
+                    <div class="item-content">
+                        <a href="img/watercolor-1020509_1920.jpg" data-lightbox="galeria"><img src="img/watercolor-1020509_1920.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="item" data-categoria="digital">
+                    <div class="item-content">
+                        <a href="img/digital-illustrator-3242713_1920.jpg" data-lightbox="galeria"><img src="img/digital-illustrator-3242713_1920.jpg" alt=""></a>
+
+                    </div>
+                </div>
+                <div class="item" data-categoria="fotografía">
+                    <div class="item-content">
+                        <a href="img/foto-dubai-1767540_1920.jpg" data-lightbox="galeria"><img src="img/foto-dubai-1767540_1920.jpg" alt=""></a>
+
+                    </div>
+                </div>
+                <div class="item" data-categoria="acuarelas">
+                    <div class="item-content">
+                        <a href="img/watercolor-5062356_1920.jpg" data-lightbox="galeria"><img src="img/watercolor-5062356_1920.jpg" alt=""></a>
+
+                    </div>
+                </div>
+                <div class="item" data-categoria="digital">
+                    <div class="item-content">
+                        <a href="img/digital-roses-2032705_1920.png" data-lightbox="galeria"><img src="img/digital-roses-2032705_1920.png" alt=""></a>
+
+                    </div>
+                </div>
+                <div class="item" data-categoria="fotografía">
+                    <div class="item-content">
+                        <a href="img/foto-turtle-2201433_1920.jpg" data-lightbox="galeria"><img src="img/foto-turtle-2201433_1920.jpg" alt=""></a>
+
+                    </div>
+                </div>
+                <div class="item" data-categoria="acuarelas">
+                    <div class="item-content">
+                        <a href="img/watercolour-4116932_1280.png" data-lightbox="galeria"><img src="img/watercolour-4116932_1280.png" alt=""></a>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="cv" class="cv">
+            <h2>Curriculum Vitae</h2>
+            <div class="cv-container">
+                <div class="cv-container__bloque">
+                    <div class="seccion-cv card">
+                        <h3 class="seccion-cv__encabezado">Educación</h3>
+                        <ul>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">Hardvard University - Graphic Designer</p>
+                                    <p class="elemento-cv__footer no-margin">2013 - 2017</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                        </ul>
+
+
+                    </div>
+                    <!--seccion-cv-->
+                    <div class="seccion-cv card">
+                        <h3 class="seccion-cv__encabezado">Experiencia</h3>
+                        <ul>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">Kalos 's Studio - Graphic Designer</p>
+                                    <p class="elemento-cv__footer no-margin">2020</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">Photo gallery - Graphic Designer</p>
+                                    <p class="elemento-cv__footer no-margin">2019-2020</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">Clap's shop - Community Manager</p>
+                                    <p class="elemento-cv__footer no-margin">2018 - 2019</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                        </ul>
+
+                    </div>
+                    <!--seccion-cv-->
+                </div>
+                <div class="cv-container__bloque">
+                    <div class="seccion-cv card">
+                        <h3 class="seccion-cv__encabezado">Habilidades</h3>
+                        <ul>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">Illustartor</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">Photoshop</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">Adobe After effects</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">Adobe Premiere Pro</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                            <li>
+                                <div class="elemento-cv">
+                                    <p class="elemento-cv__encabezado no-margin">WordPress</p>
+                                </div>
+                                <!--elemento-cv-->
+                            </li>
+                        </ul>
+
+
+                    </div>
+                    <!--seccion-cv-->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="main-footer contenedor contenedor--flex-center">
+            <div class="contacto">
+                <a class="contacto__enlace" href="#"><i class="fab fa-facebook-square"></i></a>
+                <a class="contacto__enlace" href="#"><i class="fab fa-instagram"></i></a>
+                <a class="contacto__enlace" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="contacto__enlace" href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+            <div class="copy">
+                <p>Copyright © ADBM. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.3/dist/muuri.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
