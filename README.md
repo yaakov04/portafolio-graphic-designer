@@ -1,3 +1,3 @@
-#Portafolio para diseñador gráfico
+# Portafolio para diseñador gráfico
 Hola a todos
 
